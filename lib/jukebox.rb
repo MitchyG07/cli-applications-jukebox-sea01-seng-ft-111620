@@ -29,8 +29,9 @@ def play(songs)
   puts "Please enter a song name or number"
   user_input = gets.strip 
   
-  if songs.include?(user_input) === true 
+  if songs.include?(user_input) === true || songs[user_input + 1] != nil
     puts "Playing #{user_input}"
+  
   end 
 end 
 
