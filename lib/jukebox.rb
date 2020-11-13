@@ -6,7 +6,18 @@ def help
   puts "- play : lets you choose a song to play"
   puts "- exit : exits this program"
 end 
-songs = ["Phoenix - 1901", "Tokyo Police Club - Wait Up"]
+
+songs = [
+  "Phoenix - 1901",
+  "Tokyo Police Club - Wait Up",
+  "Sufjan Stevens - Too Much",
+  "The Naked and the Famous - Young Blood",
+  "(Far From) Home - Tiga",
+  "The Cults - Abducted",
+  "Phoenix - Consolation Prizes",
+  "Harry Chapin - Cats in the Cradle",
+  "Amos Lee - Keep It Loose, Keep It Tight"
+]
 
 def list(songs) 
   songs.each_with_index do |item, index| 
@@ -14,5 +25,6 @@ def list(songs)
   end 
 end 
 
+list(songs)
 def play(songs)
   
