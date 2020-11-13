@@ -6,7 +6,7 @@ def help
   puts "- play : lets you choose a song to play"
   puts "- exit : exits this program"
 end 
-songs = ["Phoenix - 1901", ]
+songs = ["Phoenix - 1901", "Tokyo Police Club - Wait Up"]
 def list(songs) 
   songs.each_with_index |item, index| do 
    puts "#{index + 1}. #{item}"
