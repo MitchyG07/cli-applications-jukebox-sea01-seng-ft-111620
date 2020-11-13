@@ -12,3 +12,5 @@ def list(songs)
    puts "#{index + 1}. #{item}"
   end 
 end 
+
+list(songs)
