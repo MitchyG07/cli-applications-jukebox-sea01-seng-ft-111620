@@ -31,6 +31,8 @@ def play(songs)
   
   if songs.include?(user_input)
     puts "Playing #{user_input}"
+  end 
+end 
 
 play(songs)
   
