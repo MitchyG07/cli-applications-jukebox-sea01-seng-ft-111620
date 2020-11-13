@@ -7,10 +7,9 @@ def help
   puts "- exit : exits this program"
 end 
 songs = ["Phoenix - 1901", "Tokyo Police Club - Wait Up"]
+
 def list(songs) 
   songs.each_with_index do |item, index| 
    puts "#{index + 1}. #{item}"
   end 
 end 
-
-list(songs)
