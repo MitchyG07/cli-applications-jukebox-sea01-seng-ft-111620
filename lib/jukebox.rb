@@ -34,8 +34,9 @@ def play(songs)
   elsif songs[user_input - 1] != nil
     puts "Playing #{songs[user_input -1]}"
   else 
-    puts ""
+    puts "Invalid input, please try again"
   end 
+  
 end 
 
 play(songs)
