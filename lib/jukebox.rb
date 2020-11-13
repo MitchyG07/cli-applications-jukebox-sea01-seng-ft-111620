@@ -34,7 +34,6 @@ def play(songs)
   elsif songs[user_input.to_i - 1]
     if user_input.to_i != 0 
       puts "Playing #{songs[user_input.to_i - 1]}" 
-    else 
   else 
     puts "Invalid input, please try again"
     end 
