@@ -45,7 +45,7 @@ end
 def run(songs)
   puts "Please enter a command:"
   
-  until user_inpt === "exit" do 
+  until user_input === "exit" do 
     
     user_input = gets.strip 
   
