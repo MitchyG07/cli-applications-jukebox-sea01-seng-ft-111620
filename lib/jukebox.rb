@@ -29,7 +29,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip 
   
-  if songs.include(user_input)
+  if songs.include?(user_input)
     puts "Playing #{user_input}"
   elsif songs[user_input.to_i - 1]
     puts "Playing #{songs[user_input.to_i - 1]}"
